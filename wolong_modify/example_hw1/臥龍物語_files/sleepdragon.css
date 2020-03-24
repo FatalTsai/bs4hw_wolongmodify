@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/earlyaccess/cwtexfangsong.css");
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+TC:400,700,900");
+body {
+  background-image: url(https://dsa.ntue.edu.tw/epaper/images/bodybg.gif);
+  font-family: 'Noto Sans TC', sans-serif; }
+
+.row1 {
+  background-color: #fff;
+  background-image: url(https://images.pexels.com/photos/289740/pexels-photo-289740.jpeg);
+  background-size: cover;
+  background-position: center top; }
+  
+  @media (min-width: 992px) {
+    .row1 {
+      height: 300px; } }
+  .row1 .col-right {
+    outline: 1px solid red; }
+  .row1 .title {
+    font-size: 70px;
+    letter-spacing: 3px;
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 900;
+    text-align: center; }
+    @media (min-width: 992px) {
+      .row1 .title {
+        font-size: 90px;
+        text-align: left; } }
+  .row1 .num-name {
+    font-size: 0; }
+  .row1 .num {
+    background-color: #fff;
+    height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 40px; }
+    @media (min-width: 992px) {
+      .row1 .num {
+        font-size: 20px;
+        line-height: 60px;
+        height: 60px;
+        line-height: 60px; } }
+  .row1 .name {
+    background-color: #FE57AA;
+    height: 40px;
+    opacity: 0.8;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+    padding-top: 2px; }
+    @media (min-width: 992px) {
+      .row1 .name {
+        padding: 10px;
+        padding-top: 8px;
+        height: 60px; } }
+    .row1 .name .name1 {
+      text-align: center;
+      letter-spacing: 2.8px;
+      font-size: 12px; }
+      @media (min-width: 992px) {
+        .row1 .name .name1 {
+          letter-spacing: 1.3px;
+          font-size: 16px; } }
+    .row1 .name .name2 {
+      text-align: center;
+      font-size: 12px; }
+      @media (min-width: 992px) {
+        .row1 .name .name2 {
+          font-size: 14px; } }
+  .row1 .header-right {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 12px;
+    padding: 10px;
+    width: 220px; }
+    @media (min-width: 992px) {
+      .row1 .header-right {
+        width: 450px;
+        font-size: 14px; } }
+    .row1 .header-right .barcode {
+      display: none;
+      margin-right: 10px;
+      text-align: right; }
+      @media (min-width: 992px) {
+        .row1 .header-right .barcode {
+          display: inline-block; } }
+    .row1 .header-right .col1 {
+      display: inline-block;
+      margin-right: 10px;
+      vertical-align: top; }
+    .row1 .header-right .col2 {
+      display: inline-block;
+      border-left: none;
+      padding-left: 0px;
+      line-height: 1.4;
+      vertical-align: top;
+      text-align: right; }
+      @media (min-width: 992px) {
+        .row1 .header-right .col2 {
+          border-left: 2px solid #FF3399;
+          padding-left: 10px;
+          text-align: left; } }
+    .row1 .header-right .img1 {
+      width: 80px; }
+    .row1 .header-right .img2 {
+      width: 80px; }
+    .row1 .header-right .img-title1 {
+      text-align: center; }
+
+.row2 {
+  background-color: #fff; }
+  .row2 .st-num {
+    color: #FF3399;
+    font-size: 40px;
+    font-weight: 700;
+    border-right: 5px solid #FF3399;
+    display: inline-block;
+    vertical-align: top;
+    height: 50px; }
+  .row2 .st-titleGroup {
+    display: inline-block; }
+  .row2 .st-title {
+    font-weight: 700; }
+  .row2 .st-subtitle {
+    font-size: 14px; }
+  .row2 .st-body {
+    margin-top: 2px; }
+    .row2 .st-body p {
+      text-indent: 2em; }
+  .row2 .st-img {
+    width: 48%;
+    margin-right: 5px;
+    margin-bottom: 5px; }
+  .row2 .fa-check-square {
+    margin-right: 5px; }
+  .row2 .topics21 {
+    list-style-type: none;
+    padding: 0;
+    background-color: #FFF1CF;
+    padding: 3px;
+    font-size: 14px; }
+    .row2 .topics21 li {
+      background-color: #fff; }
+      .row2 .topics21 li:nth-child(even) {
+        background-color: #FFF1CD; }
+  .row2 .td1 {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    text-indent: 2.2em; }
+  .row2 .img-100 {
+    width: 100%; }
+
+.row3 {
+  background-color: #fff; }
+  .row3 .col3 {
+    width: 100%;
+    font-size: 12px;
+    -webkit-column-count: 1;
+    column-count: 1; }
+    @media (min-width: 992px) {
+      .row3 .col3 {
+        -webkit-column-count: 3;
+        column-count: 3; } }
+  .row3 .bigSort {
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #FE57AA;
+    padding-left: 3px;
+    padding-right: 3px;
+    margin-top: 2px;
+    margin-bottom: 2px; }
+  .row3 .unit {
+    background-color: rgba(254, 87, 170, 0.2);
+    width: 100px; }
+  .row3 .topic .sort {
+    display: inline-block;
+    vertical-align: top;
+    color: #FE57AA;
+    margin-bottom: 2px; }
+  .row3 .topic .sort1 {
+    background-color: #FE57AA;
+    color: #fff;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-radius: 3px; }
+  .row3 .topic .sort2 {
+    width: 100px; }
+  .row3 .topic .title {
+    display: inline-block;
+    vertical-align: top; }
+  .row3 .topic .title2 {
+    width: calc(99% - 100px); }
